@@ -16,6 +16,6 @@ install:
 deploy:
   provider: pypi
   username: "vijayshinde"
-  password: "pypi-AgEIcHlwaS5vcmcCJDM1YjU0YzZkLTMxMzYtNDBlYS1hYmNiLTBiOGY2ZTQ2M2RiMQACRXsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJwb3dlci1kaWdpdC1hZGRpdGlvbiJdfSwgInZlcnNpb24iOiAxfQAABiCbXpFu9MgpsMMyEMYfxkeaywC21TzdZ550DNyZzYkNtA"
+  password: "pypi-AgEIcHlwaS5vcmcCJDc3NjNjOThmLWUwNDctNGM2MC05OTVmLTk0NThkYjUyOTc4ZQACRXsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJwb3dlci1kaWdpdC1hZGRpdGlvbiJdfSwgInZlcnNpb24iOiAxfQAABiDJATUFqrCgb7lzXPYKdOwb3ucGODQkkgmC333Oi5BxkA"
   on:
     branch: main
