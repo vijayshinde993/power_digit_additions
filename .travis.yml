@@ -1,0 +1,21 @@
+language: python
+python:
+  - 3.6
+
+# Update pip to the latest version
+before_install:
+  - python --version
+  - pip install -U pip
+
+install:
+  - pip install -r requirements.txt
+
+#script:
+#  - python -m unittest tests/power_digit_addition_tests.py
+
+deploy:
+  provider: pypi
+  username: "vijayshinde"
+  password: "pypi-AgEIcHlwaS5vcmcCJDM1YjU0YzZkLTMxMzYtNDBlYS1hYmNiLTBiOGY2ZTQ2M2RiMQACRXsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJwb3dlci1kaWdpdC1hZGRpdGlvbiJdfSwgInZlcnNpb24iOiAxfQAABiCbXpFu9MgpsMMyEMYfxkeaywC21TzdZ550DNyZzYkNtA"
+  on:
+    branch: main
